@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+}
+.cabeca{
+    margin: 0px;background: linear-gradient(to right, #87CEFA,#1E90FF,#0c6eab,#050e63);
+    height: 100px;
+}
+.title{
+position: absolute;
+left:39%;
+top: 25px;
+color: white;
+font-size: 40px;
+
+}
+.passwordForm {
+    width: 300px; 
+    height: 300px;
+    margin: 50px auto; 
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #1E90FF; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+  }
+
+  
+
+  input {
+    margin-top: 125px;
+    padding: 8px;
+  }
+
+  .button2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: white; 
+    color: #1E90FF; 
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  button{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white; 
+    color: #1E90FF; 
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .dica {
+    position:absolute;
+    width: 200px;
+    height: 80px;
+    display: none;
+    margin-top:10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
