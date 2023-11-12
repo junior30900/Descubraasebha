@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Descubra a senha</title>
+</head>
+<body>
+    <div class="cabeca">
+        <div class="ttt" tabindex="1">
+        <span class="title">Descubra a senha</span>
+        <button class="button2" onclick="mostrarDica()">Mostrar Dica</button>
+    </div>
+</div>
+    
+    <div id="dica" class="dica">
+      <p><strong>Dica:</strong>os numeros que fazem parte da senha sao "123456789", nao nessa ordem.</p>
+    </div>
+    <script>
+        
+        function mostrarDica() {
+          var dica = document.getElementById('dica');
+          if (dica.style.display === 'none' || dica.style.display === '') {
+            dica.style.display = 'block';
+          } else {
+            dica.style.display = 'none';
+          }
+        }
+      </script>
+    <form class="passwordForm">
+        <input type="password" id="password" required placeholder="Digite a senha">
+        <button type="button" onclick="checkPassword()">Entrar</button>
+    </form>
+   
+    
+    
+  <script src="script.js"></script>
+</body>
+</html>
 
